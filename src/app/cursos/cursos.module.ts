@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { CursosRoutingModule } from './cursos-routing.module';
 import { ListacursosComponent } from './listacursos/listacursos.component';
 import {MatTableModule} from '@angular/material/table';
+import {MatButtonModule} from '@angular/material/button';
 
 
 
@@ -14,7 +15,8 @@ import {MatTableModule} from '@angular/material/table';
   imports: [
     CommonModule,
     CursosRoutingModule,
-    MatTableModule
+    MatTableModule,
+    MatButtonModule
   ]
 })
 export class CursosModule { }
